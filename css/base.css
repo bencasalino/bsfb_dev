@@ -1,0 +1,487 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    /* font: normal 14px/21px Arial, serif; */
+    /* padding: 5%;
+    margin-left:.5%;
+    margin-right:.5%; */
+    background-color: #31393c;
+    color:#eee;
+}
+#wrapper {
+    padding: 5%;
+    margin-left:.5%;
+    margin-right:.5%;
+    display: flex;
+    justify-content: space-around;
+} 
+
+
+table {
+    font-size: 1em;
+    border-collapse: collapse;
+    margin: 0 auto;
+    /* border-radius: 15px; */
+    background: #31393c;
+    box-shadow:  20px 20px 60px #2a3033, 
+                 -20px -20px 60px #384245;
+                 color:#eee;
+}
+table, th, td {
+    font-size: 14px;
+    border: 1px solid #475357;
+    /* padding: 8px 16px; */
+    text-align: center;
+    color:#eee;
+}
+table.ex-2 {
+    min-width: 100px;
+}
+th {
+    background: #31393c;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+}
+
+th:hover,
+th.sorted {
+    background: white;
+    color: #31393c; 
+    
+}
+
+th.no-sort,
+th.no-sort:hover {
+    background: #31393c;
+    cursor: not-allowed;
+}
+
+th.sorted.ascending:after {
+    content: "  \2191";
+}
+
+th.sorted.descending:after {
+    content: " \2193";
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+
+/* top-left border-radius */
+table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+  }
+  
+  /* top-right border-radius */
+  table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  /* bottom-left border-radius */
+  table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* bottom-right border-radius */
+  table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+
+
+
+  /* YEARS */
+._2008 {
+    background-color: #057af0;
+    color: #fff;
+}
+
+._2009 {
+    background-color: #0470dc;
+    color: #fff;
+}
+
+._2010 {
+    background-color: #0466c8;
+    color: #fff;
+}
+
+._2011 {
+    background-color: #045cb4;
+    color: #fff;
+}
+
+._2012 {
+    background-color: #024fa1;
+    color: #fff;
+}
+
+._2013 {
+    background-color: #01458d;
+    color: #fff;
+}
+
+._2014 {
+    background-color: #00397a;
+    color: #fff;
+}
+
+._2015 {
+    background-color: #002c66;
+    color: #fff;
+}
+
+._2016 {
+    background-color: #001d52;
+    color: #fff;
+}
+
+._2017 {
+    background-color: #002c66;
+    color: #fff;
+}
+
+._2018 {
+    background-color: #00397a;
+    color: #fff;
+}
+
+._2019 {
+    background-color: #01458d;
+    color: #fff;
+}
+
+._2020 {
+    background-color: #024fa1;
+    color: #fff;
+}
+
+._2021 {
+    background-color: red;
+    color: #fff;
+}
+
+
+/* th-classes */
+.th-rank {}
+.th-manager {text-align: left;}
+.th-join-order {}
+.th-team-name{text-align: left;}
+.th-team-year {}
+.th-season-year {}
+.th-rs-w {}
+.th-rs-l {}
+.th-rs-fin {}
+.th-pl-w {}
+.th-pl-l {}
+.th-season-gp {}
+.th-season-win-perc {}
+.th-first-slot {}
+.th-second-slot {}
+.th-third-slot {}
+.th-forth-slot {}
+.th-playoff-slot {}
+.th-awards  {}
+
+/* td-classes */
+.td-rank {}
+.td-manager {text-align: left;}
+.td-join-order{font-size: 12px;}
+.td-team-name {text-align: left;
+font-size: 12px;}
+.td-team-year {font-size: 8px;}
+.td-season-year {font-size: 10px;}
+.td-rs-w {}
+.td-rs-l {}
+.td-rs-fin {text-align: center;}
+.td-pl-w {}
+.td-pl-l {}
+.td-season-gp {}
+.td-season-win-perc {}
+.td-first-slot {}
+.td-second-slot {}
+.td-third-slot {}
+.td-forth-slot {}
+.td-playoff-slot {}
+.td-awards  {}
+
+
+
+  /* WIN LOSS COLOR SCALE  */
+  .w1 { background-color: #d8f3dc;  color:#202020;}
+  .w2 { background-color: #d8f3dc;  color:#202020;}
+  .w3 { background-color: #d8f3dc;  color:#202020;}
+  .w4 { background-color: #b7e4c7;  color:#202020;}
+  .w5 { background-color: #b7e4c7;  color:#202020;}
+  .w6 { background-color: #b7e4c7;  color:#202020;}
+  .w7 { background-color: #95d5b2; color:#202020;}
+  .w8 { background-color: #74c69d; color:#202020;}
+  .w9 { background-color: #74c69d;color:#202020;}
+  .w10 { background-color: #52b788;color:#202020;}
+  .w11 { background-color: #52b788;color:white;}
+  .w12 { background-color: #40916c;color:white;}
+  .w13 { background-color: #40916c;color:white;}
+  .w14 { background-color: #2d6a4f;color:white;}
+  .w15 { background-color: #2d6a4f;color:white;}
+  .w16 { background-color: #2d6a4f;color:white;}
+  .w17 { background-color: #1b4332;color:white;}
+  .w18 { background-color: #1b4332;color:white;}
+  .w19 { background-color: #1b4332;color:white;}
+  .w20 { background-color: #1b4332;color:white;}
+  
+  .l1 { background-color: #feeeef; color:#202020;}
+  .l2 { background-color: #fcb8af;  color:#202020;}
+  .l3 { background-color: #fcb8af;  color:#202020;}
+  .l4 { background-color: #f67e7d;  color:#202020;}
+  .l5 { background-color: #f67e7d;  color:#202020;}
+  .l6 { background-color: #e5383b;color:#202020;}
+  .l7 { background-color: #e5383b;color:#202020;}
+  .l8 { background-color: #e5383b;color:#202020;}
+  .l9 { background-color: #ba181b;color:#202020;}
+  .l10 { background-color: #ba181b;color:#202020;}
+  .l11 { background-color: #ba181b;color:white;}
+  .l12 { background-color: #a4161a;color:white;}
+  .l13 { background-color: #a4161a;color:white;}
+  .l14 { background-color: #a4161a;color:white;}
+  .l15 { background-color: #660708;color:white;}
+  .l16 { background-color: #660708;color:white;}
+  .l17 { background-color: #660708;color:white;}
+  .l18 { background-color: #660708;color:white;}
+  
+  
+  /* MEDALS */
+  .gold {
+      background-color: gold; color:#202020;
+  }
+  
+  .silver {
+      background-color: silver; color:#202020;
+  }
+  
+  .bronze {
+      background-color: #b08d57; color:#202020;}
+  
+  .forth {
+      background-color: lavender; color:#202020;
+  }
+  
+  .playoffs {
+      background-color: gray; color:#202020;
+  }
+  
+  .color-gold {
+      color: gold; 
+  }
+  .color-silver {
+    color: silver;
+}
+.color-bronze {
+    color: #b08d57;
+}
+.color-forth {
+    color: lavender;
+}
+
+
+/* FIXED TABLE HEADER  */
+.tableFixHead {
+    overflow-y: auto;
+    height: 700px;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: -1;
+}
+
+.trophy-case {
+    width: 200px;
+    /* text-align: center; */
+}
+
+.shelf-gold {
+    text-align: left;
+}
+
+.shelf-silver { text-align: left;
+height:30px;}
+
+.shelf-bronze { text-align: left;height:30px}
+
+.shelf-forth { text-align: left;height:30px}
+
+.shelf-playoffs { text-align: left;height:30px}
+
+.shelf-awards { text-align: left;height:30px}
+
+.color-rsc {
+ color: orange;
+}
+
+.fa-crown {
+    color: orange;
+
+}
+
+.fa-poop {
+    color:#987654;
+}
+/* .color-poop {
+    color:#987654;
+} */
+
+.color-mip {
+    color: #1acdda;
+    background-color:#1acdda ;
+   }
+
+   .color-roy {
+    color: rgb(137, 68, 214);
+   }
+
+   .fa-award {
+       color:gold;
+   }
+   .color-poop {
+    color:#987654;
+}
+
+
+   .new-manager {
+       padding-left: 10px;
+       padding-right: 40px;
+   }
+   h5 {
+    font-family: 'Bebas Neue', cursive;
+       font-size: 24px;
+       letter-spacing: 1px;
+       text-align: left;
+       font-weight: 700;
+   }
+   h6 {
+           /* font-family: 'Bebas Neue', cursive; */
+    font-size: 14px;
+    text-align: left;
+    font-weight: 700;
+}
+
+   .vert-flex {
+       display: flex;
+    flex-direction: column;
+   }
+
+   .horz-flex {
+       display: flex;
+   }
+
+   .trophy-case-font {font-size: 10px;}
+   .trophy-case-icon {font-size: 20px;}
+   .trophy-case-flex {
+       justify-content: space-between;
+
+   }
+
+
+   .main-logo {
+ display: flex;
+ justify-content: flex-end;
+/* max-width:20px; */
+}
+
+.main-img {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+   max-width:100px;
+   }
+
+
+   .footer-flex {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .footer-icon {
+width:100px;
+}
+
+.footer-text {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-icon {
+    width:50px;
+    }
+
+.main-table {
+    /* padding-right: 3px;  */
+}
+
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    
+}
+
+
+a { 
+    color: white; 
+
+}
+
+a:visited{ 
+    color: white; 
+    
+}
+
+a:hover { 
+    color: gold; 
+    
+}
+
+.nav-icons
+{height: 40px;}
+
+
+.color-white {
+    color: white;
+}
+
+
+
+.table-text 
+ {
+     padding-left: 20px;
+     font-weight: 100;
+     /* font-style: italic; */
+     font-size: 10px;
+ }
+
+ .legend-text  
+{
+font-size: 13px;
+}
+
+.legend-wrapper {
+    /* padding: 2px; */
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right:100px;
+}
+
+.accolades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:red;
+}
