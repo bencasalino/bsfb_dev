@@ -1,0 +1,214 @@
+ 
+
+  /* YEARS */
+  ._2008 { background: #057af0; color: #fff;}
+  ._2009 { background: #057af0; color: #fff;}
+  ._2010 { background: #057af0; color: #fff;}
+  ._2011 { background: #057af0; color: #fff;}
+  ._2012 { background: #057af0; color: #fff;}
+  ._2013 { background: #057af0; color: #fff;}
+  ._2014 { background: #057af0; color: #fff;}
+  ._2015 { background: #057af0; color: #fff;}
+  ._2016 { background: #057af0; color: #fff;}
+  ._2017 { background: #057af0; color: #fff;}
+  ._2018 { background: #057af0; color: #fff;}
+  ._2019 { background: #057af0; color: #fff;}
+  ._2020 { background: #057af0; color: #fff;}
+  ._2021 { background: #057af0; color: #fff;}
+  
+
+  /* harsh */
+
+  .scale0 {background: #e5383b; color:#000; }
+  .scale5 {background: #e5383b; color:#000; }
+  .scale10 {background: #e64447; color:#000; }
+  .scale15 {background: #e44f51; color:#000; }
+  .scale20 {background: #de6d6f; color:#000; }
+  .scale25 {background: #de6d6f; color:#000; }
+  .scale30 {background: #d58789; color:#000; }
+  .scale35 {background: #d69798; color:#000; }
+  .scale40 {background: #d8a4a5; color:#000; }
+  .scale45 {background: #d8a4a5; color:#000; }
+  .scale50 {background: #dbf9ec; color:#000; }
+  .scale55 {background: #97eec7; color:#000; }
+  .scale60 {background: #87ebbe; color:#000; }
+  .scale65 {background: #65e6ac; color:#000; }
+  .scale70 {background: #76e9b5; color:#000; }
+  .scale75 {background: #54e3a3; color:#000; }
+  .scale80 {background: #32de91; color:#000; }
+  .scale85 {background: #32de91; color:#000; }
+  /* .scale90 {background: #32de91; color:#000; }
+  .scale95 {background: #32de91; color:#000; } */
+
+
+
+/* wins */
+.w0 { background: #fdfffe; color:#000; }
+.w1 { background: #dbf9ec; color:#000; }
+.w2 { background: #caf6e2; color:#000; }
+.w3 { background: #b9f4d9; color:#000; }
+.w4 { background: #a8f1d0; color:#000; }
+.w5 { background: #97eec7; color:#000; }
+.w6 { background: #97eec7; color:#000; }
+.w7 { background: #87ebbe; color:#000; }
+.w8 { background: #87ebbe; color:#000; }
+.w9 { background: #76e9b5; color:#000; }
+.w10{ background: #76e9b5; color:#000; }
+.w11{ background: #65e6ac; color:#000; }
+.w12{ background: #65e6ac; color:#000; }
+.w13{ background: #54e3a3; color:#000; }
+.w14{ background: #43e19a; color:#000; }
+.w15{ background: #43e19a; color:#000; }
+.w16{ background: #32de91; color:#000; }
+.w17{ background: #32de91; color:#000; }
+
+/* loss */
+.l0 { background: #d8a4a5; color:#000; }
+.l1 { background: #d8a4a5; color:#000; }
+.l2 { background: #d8a4a5; color:#000; }
+.l3 { background: #d8a4a5; color:#000; }
+.l4 { background: #d69798; color:#000; }
+.l5 { background: #d69798; color:#000; }
+.l6 { background: #d58789; color:#000; }
+.l7 { background: #d58789; color:#000; }
+.l8 { background: #de6d6f; color:#000; }
+.l9 { background: #de6d6f; color:#000; }
+.l10{ background: #e4797b; color:#000; }
+.l11{ background: #e4797b; color:#000; }
+.l12{ background: #e44f51; color:#000; }
+.l13{ background: #e44f51; color:#000; }
+.l14{ background: #e64447; color:#000; }
+.l15{ background: #e64447; color:#000; }
+.l16{ background: #e5383b; color:#000; }
+.l17{ background: #e5383b; color:#000; }
+.l18{ background: #e5383b; color:#000; }
+
+/* colors */
+
+.gold   {background: gold; color:#202020;}
+.silver {background: silver; color:#202020;}
+.bronze {background: #b08d57; color:#202020;}
+.forth {background: lavender; color:#202020; }
+.pl {background: #7EB2E6; color:#202020;}
+.playoffs {background: #f1f2f2; color:#202020;}
+.color-gold {color: gold; }
+.color-silver {color: silver;}
+.color-bronze {color: #b08d57;}
+.color-forth {color: lavender;}
+.color-pl {color: #f1f2f2;}
+.color-steal {color:#d1b265;}
+.color-black {color: black;}
+.color-white {background:white;color:black;}
+.color-rsc {color: orange;}
+.fa-crown {color: orange;}
+.fa-poop {color:#987654;}
+.color-mip {color: #1acdda;}
+.color-roy {color: rgb(137, 68, 214);}
+.fa-award {color:gold;}
+.color-poop {color:#987654;}
+.color-draft {color:#ee6c4d;}
+.color-ten {color:#fdd85d; }
+.td-rs-gp { background: #f1f2f2; color: black; }
+.bg-last   {background: #987654; color:#202020;}
+.bg-roy   {background: rgb(137, 68, 214);; color:#202020;}
+.bg-mip   {background: #1acdda; color:#202020;}
+.ninja   {background: silver; color:#202020;}
+.fort   {background: #ee6c4d; color:#202020;}
+.crown   {background: orange; color:#202020;}
+
+/* teams */
+.atl {background: #E03A3E; color:#C1D32F;}
+.bos {background: #007A33; color:#BA9653;}
+.bkn {background: #000; color:#fff;}
+.cha {background: #00788C; color:#1D1160;}
+.chi {background: #fff; color:#CE1141;}
+.cle {background: #860038; color:#FDBB30;}
+.dal {background: #00843D; color:#002855;}
+.den {background: #0E2240; color:#FEC524;}
+.det {background: #1D42BA; color:#fff;}
+.gsw {background: #FFC72C; color:#1D428A;}
+.hou {background: #CE1141; color:#fff;}
+.ind {background: #FDBB30; color:#002D62;}
+.lac {background: #1D428A; color:#fff;}
+.lal {background: #552583; color:#FDB927;}
+.mep {background: #5D76A9; color:#12173F;}
+.mia {background: #000; color:#DB3EB1;}
+.mil {background: #00471B; color:#EEE1C6;}
+.nyk {background: #006BB6; color:#F58426;}
+.min {background: #78BE20; color:#0C2340;}
+.nop {background: #0C2340; color:#85714D;}
+.okc {background: #007AC1; color:#FDBB30;}
+.orl {background: #000; color:#0077C0;}
+.phi {background: #0077C0; color:#C4CED4;}
+.phx {background: #1D1160; color:#E56020;}
+.por {background: #000; color:#E03A3E;}
+.sac {background: #5A2D81; color:#fff;}
+.sas {background: #000000; color:#8A8D8F;}
+.tor {background: #753BBD; color:#fff;}
+.uta {background: #00471B; color:#F9A01B;}
+.was {background: #002B5C; color:#C4CED4;}
+
+
+/* team colors */
+.ben {background: #3a6fe0; color:#C39E6D;}
+.preet {background: #007A33; color:#ece5d9;}
+.burges {background: #000; color:#fff;}
+.jon {background: #90CBFB; color:#1D1160;}
+.lamar {background: #fff; color:#CE1141;}
+.adamb {background: #860038; color:#FDBB30;}
+.color-adamb { color:#FDBB30;}
+.adams {background: #00843D; color:#002855;}
+.kenny {background: #0E2240; color:#FEC524;}
+.matt {background: #1D42BA; color:#fff;}
+.mateo {background: #FFC72C; color:#1D428A;}
+.jamesv {background: #CE1141; color:#fff;}
+.jamesc {background: #FDBB30; color:#002D62;}
+.zachz {background: #1D428A; color:#fff;}
+.zachl {background: #4F2683; color:#FFC62F;}
+.chris {background: #0C2340; color:#78BE20;}
+.tanner {background: rgb(22, 22, 22); color:#F7B5CD;}
+.craig {background: #C9C19F; color:#5B5B5B;}
+.kyle {background: #003c68; color:#F58426;}
+.rudy {background: #78BE20; color:#0C2340;}
+.ryanz {background: #00B140; color:#084212;}
+.ryanc {background: #007AC1; color:#FDBB30;}
+.brady {background: #B30838; color:#F5E700;}
+.jordanf {background: #8f071c; color:#9BCDE4;}
+.alex {background: #1D1160; color:#E56020;}
+.myles {background: rgb(19, 19, 19); color:#E03A3E;}
+.jordanm {background: #311D00; color:#FF3C00;}
+.jordane {background: #1b1616; color:#b6bcc0;}
+.jasonb {background: #A3A1A8; color:#790014;}
+.sean {background: #753BBD; color:#fff;}
+.rafa {background: #00471B; color:#F9A01B;}
+.adrian {background: #002B5C; color:#498f94;}
+.connor {background: #3E2680; color:#6CAEDF;}
+.tophas {background: rgb(241, 241, 241); color:#d1b265;}
+.marco {background: #a50756; color:#f8fb45;}
+.josh {background: #FFF587; color:#7D6B7D;}
+.edde {background: #cbced1; color:#00851d;}
+.scottm {background: #782F40; color:#CEB888;}
+.scottb {background: #7D6B7D; color:#C4CED4;}
+.paul {background: rgb(36, 34, 34); color:#c6ff0a;}
+.danny {background: #ae0001; color:#eeba30;}
+.aj {background: #88d8b0; color:#25292c;}
+.carlo {background: #7289DA; color:#000;}
+.gary {background: #fff; color:#FB4F14;}
+.kristen {background: #ff71ce; color:#000;}
+.jason {background: #e1f7d5; color:#C4CED4;}
+.justin {background: #002B5C; color:#C4CED4;}
+.jess {background: #fff; color:#257c9e;}
+.mark {background: #ffa43c; color:#fff;}
+.robbie {background: #f1ec59; color:#162025;}
+.langston {background: #ffbdbd; color:#000;}
+.jesus {background: #FF8C64; color:#000;}
+.andy {background: #01cdfe; 
+  color:#fff;}
+.andy-i{background-color:red;}
+.jeremy {background: #7d088d; color:#c6cace;}
+.robert {background: #000; color:#fff;}
+
+.yacine {background: #F2055C; color:#0e022c;}
+/* .was {background: #002B5C; color:#C4CED4;} */
+
+

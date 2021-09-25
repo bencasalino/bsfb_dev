@@ -1,13 +1,10 @@
 /* Preview styling only
 ------------------------ */
 
-body {
-	/* background: #f6f5ee repeat; */
-}
 
-article {
+/* article {
 	margin: 0 10px;
-}
+} */
 
 /* The awesome
 ------------------ */
@@ -15,7 +12,7 @@ article {
 /* Shelf (Works best in Webkit) */
 .shelf {
 	position: relative;
-	width: 100%;
+	width: 200px;
 	border-bottom: 13px solid #24252a;
 	text-align: center;
 	padding: 0 27px;
@@ -35,7 +32,7 @@ article {
 	    -ms-transform: perspective( 150 ) rotateX( -25deg );
 	        transform: perspective( 150 ) rotateX( -25deg );
 	right: 34px;
-	box-shadow: 0 0 17px 5px rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 17px 5px rgba(0, 0, 0, 0.3);
 	z-index: -1;
 }
 
@@ -83,7 +80,7 @@ article {
 
 /* Default case template (Bluray) */
 
-.case {
+/* .case {
 	display: inline-block;
 	width: 142px;
 	height: 179px;
@@ -228,11 +225,11 @@ article {
 					height: 100%;
 					display: block;
 					border-radius: 0 3px 3px 0;
-				}
+				} */
 
 				
 /* PS3 */
-.case.ps3 > div {
+/* .case.ps3 > div {
 	background: #fff;
 	background: rgba(239, 239, 239, 0.8);
 }
@@ -252,10 +249,10 @@ article {
 			margin-right: 7px;
 			max-height: 3px;
 			margin-top: 2px;
-		}
+		} */
 		
 /* XBOX 360 */
-.case.xbox {
+/* .case.xbox {
 	height: 203px;
 }
 
@@ -264,10 +261,10 @@ article {
 	background: rgba(117, 187, 36, 0.8);
 	padding: 3px 3px 3px 0;
 	border-radius: 2px 5px 5px 2px;
-}
+} */
 
 /* CD */
-.case.cd {
+/* .case.cd {
 	height: 131px;
 }
 
@@ -284,14 +281,14 @@ article {
 		padding: 0;
 		border: 1px solid rgba(0, 0, 0, 0.6);
 	}
-	
-	.case.cd > div > .img:after,
+	 */
+	/* .case.cd > div > .img:after,
 	.case.cd > div > .img > span:before,
 	.case.cd > div > .img > span:after {
 		display: none;
 	}
-	
-	.case.cd > div > .img:before {
+	 */
+	/* .case.cd > div > .img:before {
 		box-shadow: none;
 		width: 12px;
 		background-color: #444;
@@ -314,4 +311,4 @@ article {
 		
 			.case.cd > div > .img > span > img {
 				border-radius: 0;
-			}
+			} */

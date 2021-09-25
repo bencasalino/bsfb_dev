@@ -1,0 +1,29 @@
+[
+    {
+        "ben_c": {
+            "data": {
+                "name":"Ben C",
+                "join_order":1,
+                "total_seasons": 10
+            },
+            "s08": {
+                "year": 2008,
+                "w":1,
+                "l":3,
+                "p_wins":4,
+                "fin_order": 4,
+                "s08_awards":["/images/icons/award.svg","/images/ballot.svg"]
+            },
+            "s09": {
+                "year":  ,
+                "w":  ,
+                "l":  ,
+                "p_wins":  ,
+                "fin_order":   ,
+                "s09_awards":[]
+            }
+        }
+    }
+]
+
+

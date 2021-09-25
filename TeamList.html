@@ -1,0 +1,368 @@
+<html>
+
+<head>
+    <title>BS Basketball Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/a95c7d5690.js" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/teamlist.css">
+        <link rel="stylesheet" href="css/colors.css">
+        <!-- <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="stylesheet" href="css/dashboard.rtl.css"> -->
+    <!-- <link rel="stylesheet" href="css/book.css"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="d-flex order-0">
+            <a class="navbar-brand mr-0" href="index.html"> <img src="/images/bfbball-1.png" class="header-icon p-0" alt="">BS
+                FANTASY
+                BASKETBALL LEAGUE
+                <span style="font-size:10px">EST:2008</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <!-- <div class="navbar-collapse collapse justify-content-end order-1" id="collapsingNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://fantasy.espn.com/basketball/league?leagueId=57357">ESPN League
+                        Home <i class="fas fa-basketball-ball pl-2 pr-4 nav-icons"></i> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/groups/123422284409807">Facebook <i
+                            class="fab fa-facebook pl-2 pr-4 nav-icons"></i> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bsfb.slack.com/">Slack <i
+                            class="fab fa-slack pl-2 pr-4 nav-icons"></i> </a>
+                </li>
+            </ul>
+        </div> -->
+        <!-- <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">always show</span> -->
+    </nav>
+    <!-- <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">LEAGUE HISTORY TABLE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">HALL OF FAME</a>
+        </li>
+    </ul> -->
+
+    <div class="container-fluid">
+        <div class="row">
+       <!-- <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/TeamHistory.html">
+                                Team History
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">
+                                Seasons History
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/PlayersHistory.html">
+                                Players
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Champions.html">
+                                Champions
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/HallofFame.html">
+                                Hall of Fame
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <br>
+                    <br>
+                    <table class="table table-sm table-borderless">
+                        <h6>Legend</h6>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-trophy color-gold"></i></td>
+                            <td class="legend-text">1st <span class="reg-sea">REGULAR SEASON</span></td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-medal color-silver"></i></td>
+                            <td class="legend-text">2nd</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-medal color-bronze"></i></td>
+                            <td class="legend-text">3rd</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-medal color-forth"></i></td>
+                            <td class="legend-text">4th</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-poop color-poop"></i></td>
+                            <td class="legend-text pb-3">Last</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-crown color-gold"></i></td>
+                            <td class="legend-text">1st <span class="reg-sea">POST SEASON</span></td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-bookmark color-silver"></i></td>
+                            <td class="legend-text">2nd</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-bookmark color-bronze"></i></td>
+                            <td class="legend-text">3rd</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-bookmark color-forth"></i></td>
+                            <td class="legend-text">4th</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class="fas fa-basketball-ball color-pl"></i></td>
+                            <td class="legend-text pb-3">Playoffs</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fab fa-fort-awesome color-draft"></i></td>
+                            <td class="legend-text">Best Pick <span class="reg-sea">DRAFT</span></td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"><i class=" fas fa-atom color-ten"></i> </td>
+                            <td class="legend-text">Drafted Top 10 Avg</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-user-ninja color-silver"></i></td>
+                            <td class="legend-text pb-3">Draft Steal</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-gem color-gold"></i></td>
+                            <td class="legend-text">Hall Of Fame <span class="reg-sea">AWARDS</span></td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" far fa-bookmark color-pl"></i></td>
+                            <td class="legend-text">SEASON</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-shield-alt color-mip"></i></td>
+                            <td class="legend-text">MIP</td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-shield-virus color-roy"></i></td>
+                            <td class="legend-text">ROY</td>
+                        </tr>
+
+                        <tr>
+                            <td class="legend-text"><span class="reg-sea">TEAMS</span></td>
+                        </tr>
+                        <tr>
+                            <td class="legend-icon"> <i class=" fas fa-shield-virus color-roy"></i></td>
+                            <td class="legend-text">ROY</td>
+                        </tr>
+                   
+                    </table>
+                </div>
+            </nav> -->
+          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="main-table">
+                    <h5><i class="fas fa-bookmark"></i> Team List Cards    
+                    </h5>
+                    <br>
+                    <div class="card adamb" style="width: 18rem;">
+                        <div class="d-flex team-card-main">
+                            <i class="fas fa-ghost color-adamb fa-4x"></i>
+                            <div>
+                                <h5 class="team-name-text">Adam B</h5> <p class="est">EST 2009</p>
+                            </div>
+                        </div>
+                        <div class="card-body flex-col">
+                            <table class="table table-sm tb-white">
+                                <tbody>
+                                    <tr>
+                                        <td class="card-table-w-label w10">W</td>
+                                        <td class="card-table-l-label l10">L</td>
+                                        <td class="card-table-gp-label black">GP</td>
+                                        <td class="card-table-wp-label">WIN %</td>
+                                      
+                                    </tr>
+                                    <tr>
+                                        <td class="card-table-w">5</td>
+                                        <td class="card-table-l">3</td>
+                                        <td class="card-table-gp">124</td>
+                                        <td class="card-table-wp">13.55%</td>
+                          
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div>
+                                <div id="shelf">
+                                    <div>
+                                        <span
+                                        style="
+                                        top: 15px;
+                                        position: absolute;
+                                        left: 44px;
+                                        z-index: 100;
+                                        ">                                   
+                                        <span class="vert-flex">
+                                        <span class="trophy-case-font">09'</span>
+                                        <span><i class="fas fa-trophy trophy-case-icon color-gold"></i></span>
+                                        </span>
+                                        </span>
+                        
+                                        <span
+                                        style="
+                                        top: 15px;
+                                        position: absolute;
+                                        left: 84px;
+                                        z-index: 100;
+                                        ">                                   
+                                        <span class="vert-flex">
+                                        <span class="trophy-case-font">09'</span>
+                                        <span><i class="fas fa-trophy trophy-case-icon color-gold"></i></span>
+                                        </span>
+                                        </span>
+                                    </div>
+                            <div class="top"></div>
+                            <div class="front"></div>
+                            <div class="shadow"></div>
+                        </div>
+
+
+<br>
+<!-- <h6>JON</h6> -->
+<div id="shelf">
+            <div>
+                <span
+                style="
+                top: 15px;
+                position: absolute;
+                left: 44px;
+                z-index: 100;
+                ">                                   
+                <span class="vert-flex">
+                <span class="trophy-case-font">09'</span>
+                <span><i class="fas fa-trophy trophy-case-icon color-gold"></i></span>
+                </span>
+                </span>
+
+                <span
+                style="
+                top: 15px;
+                position: absolute;
+                left: 84px;
+                z-index: 100;
+                ">                                   
+                <span class="vert-flex">
+                <span class="trophy-case-font">09'</span>
+                <span><i class="fas fa-trophy trophy-case-icon color-gold"></i></span>
+                </span>
+                </span>
+            </div>
+    <div class="top"></div>
+    <div class="front"></div>
+    <div class="shadow"></div>
+</div>
+
+<br>
+                            <section>
+                                <article>
+                                  <div class="horz-flex">
+                                    <span class="vert-flex">
+                                      <span class="trophy-case-font">09'</span>
+                                      <span><i class="fas fa-trophy trophy-case-icon color-gold"></i></span>
+                                    </span>
+                                    <span class="vert-flex pl-2">
+                                      <span class="trophy-case-font">10'</span>
+                                      <span><i class="fas fa-trophy trophy-case-icon color-gold"></i></span>
+                                    </span>
+                                    <span class="vert-flex pl-2">
+                                      <span class="trophy-case-font">15'</span>
+                                      <span><i class="fas fa-trophy trophy-case-icon color-gold"></i></span>
+                                    </span>
+                                  </div>
+                                </article>
+                            </section>
+                            
+                        
+                        </div>
+                        </div>  
+                    </div>
+                    <!-- End Card // Start New  -->
+                    <br>
+                    
+                    <!-- End Card // Start New  -->
+                </main>
+                <!-- main table end -->
+            </div>
+   
+            <!-- end row -->
+        </div>
+        <!-- end cont fluid  -->
+        <footer>
+            <!-- <div class="row"> -->
+            <div class="footer-flex mt-5">
+                <img class="footer-icon" src="/images/bfbball-1.png" alt="">
+                <p class="footer-text">ESTABLISHED 2008 | COPYRIGHT 2021</p>
+
+            </div>
+    </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="jquery.tablesort.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            var table = $('<table class="ex-2"></table>');
+            table.append('<thead><tr><th class="number">Number</th></tr></thead>');
+            var tbody = $('<tbody></tbody>');
+
+            for (var i = 0; i < 500; i++) {
+                tbody.append('<tr><td>' + Math.floor(Math.random() * 100) + '</td></tr>');
+            }
+            table.append(tbody);
+            $('.example.ex-2').append(table);
+
+            $('table').tablesort().data('tablesort');
+
+            $('thead th.number').data('sortBy', function (th, td, sorter) {
+                return parseInt(td.text(), 10);
+            });
+
+            //Sorting indicator example
+            $('table.ex-2').on('tablesort:start', function (event, tablesort) {
+                $('table.ex-2 tbody').addClass("disabled");
+                $('.ex-2 th.number').removeClass("sorted").text('Sorting..');
+            });
+
+            $('table.ex-2').on('tablesort:complete', function (event, tablesort) {
+                $('table.ex-2 tbody').removeClass("disabled");
+                $('.ex-2 th.number').text('Number');
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>

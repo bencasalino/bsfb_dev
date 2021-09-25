@@ -2,36 +2,24 @@
     font-family: 'Inter', sans-serif;
 }
 body {
-    /* font: normal 14px/21px Arial, serif; */
-    /* padding: 5%;
-    margin-left:.5%;
-    margin-right:.5%; */
-    background-color: #31393c;
+    font: normal 14px/21px Arial, serif;
+    /* background-color: #231f20; */
+    background: #1c1e2b;
+    /* 434752 */
     color:#eee;
 }
-#wrapper {
-    padding: 5%;
-    margin-left:.5%;
-    margin-right:.5%;
-    display: flex;
-    justify-content: space-around;
-} 
 
 
 table {
+    width: 100%;
     font-size: 1em;
     border-collapse: collapse;
     margin: 0 auto;
-    /* border-radius: 15px; */
-    background: #31393c;
-    box-shadow:  20px 20px 60px #2a3033, 
-                 -20px -20px 60px #384245;
-                 color:#eee;
+    color:#eee;
 }
 table, th, td {
     font-size: 14px;
     border: 1px solid #475357;
-    /* padding: 8px 16px; */
     text-align: center;
     color:#eee;
 }
@@ -39,7 +27,9 @@ table.ex-2 {
     min-width: 100px;
 }
 th {
-    background: #31393c;
+    color: #31393c;
+    background: #fff;
+
     cursor: pointer;
     font-size: 11px;
     font-weight: 700;
@@ -48,14 +38,14 @@ th {
 
 th:hover,
 th.sorted {
-    background: white;
-    color: #31393c; 
+    /* background: white;
+    color: #31393c;  */
     
 }
 
 th.no-sort,
 th.no-sort:hover {
-    background: #31393c;
+    /* background: red; */
     cursor: not-allowed;
 }
 
@@ -72,219 +62,27 @@ th.sorted.descending:after {
 }
 
 
-/* top-left border-radius */
-table tr:first-child th:first-child {
-    border-top-left-radius: 10px;
-  }
-  
-  /* top-right border-radius */
-  table tr:first-child th:last-child {
-    border-top-right-radius: 10px;
-  }
-  
-  /* bottom-left border-radius */
-  table tr:last-child td:first-child {
-    border-bottom-left-radius: 10px;
-  }
-  
-  /* bottom-right border-radius */
-  table tr:last-child td:last-child {
-    border-bottom-right-radius: 10px;
-  }
 
 
-
-  /* YEARS */
-._2008 {
-    background-color: #057af0;
-    color: #fff;
-}
-
-._2009 {
-    background-color: #0470dc;
-    color: #fff;
-}
-
-._2010 {
-    background-color: #0466c8;
-    color: #fff;
-}
-
-._2011 {
-    background-color: #045cb4;
-    color: #fff;
-}
-
-._2012 {
-    background-color: #024fa1;
-    color: #fff;
-}
-
-._2013 {
-    background-color: #01458d;
-    color: #fff;
-}
-
-._2014 {
-    background-color: #00397a;
-    color: #fff;
-}
-
-._2015 {
-    background-color: #002c66;
-    color: #fff;
-}
-
-._2016 {
-    background-color: #001d52;
-    color: #fff;
-}
-
-._2017 {
-    background-color: #002c66;
-    color: #fff;
-}
-
-._2018 {
-    background-color: #00397a;
-    color: #fff;
-}
-
-._2019 {
-    background-color: #01458d;
-    color: #fff;
-}
-
-._2020 {
-    background-color: #024fa1;
-    color: #fff;
-}
-
-._2021 {
-    background-color: red;
-    color: #fff;
-}
 
 
 /* th-classes */
 .th-rank {}
+.th-logo {text-align: center;}
 .th-manager {text-align: left;}
-.th-join-order {}
 .th-team-name{text-align: left;}
-.th-team-year {}
-.th-season-year {}
-.th-rs-w {}
-.th-rs-l {}
-.th-rs-fin {}
-.th-pl-w {}
-.th-pl-l {}
-.th-season-gp {}
-.th-season-win-perc {}
-.th-first-slot {}
-.th-second-slot {}
-.th-third-slot {}
-.th-forth-slot {}
-.th-playoff-slot {}
-.th-awards  {}
+.th-trophys{background: white !important;}
+.th-awards{background: white !important;}
 
 /* td-classes */
-.td-rank {}
 .td-manager {text-align: left;}
 .td-join-order{font-size: 12px;}
 .td-team-name {text-align: left;
 font-size: 12px;}
 .td-team-year {font-size: 8px;}
 .td-season-year {font-size: 10px;}
-.td-rs-w {}
-.td-rs-l {}
 .td-rs-fin {text-align: center;}
-.td-pl-w {}
-.td-pl-l {}
-.td-season-gp {}
-.td-season-win-perc {}
-.td-first-slot {}
-.td-second-slot {}
-.td-third-slot {}
-.td-forth-slot {}
-.td-playoff-slot {}
-.td-awards  {}
-
-
-
-  /* WIN LOSS COLOR SCALE  */
-  .w1 { background-color: #d8f3dc;  color:#202020;}
-  .w2 { background-color: #d8f3dc;  color:#202020;}
-  .w3 { background-color: #d8f3dc;  color:#202020;}
-  .w4 { background-color: #b7e4c7;  color:#202020;}
-  .w5 { background-color: #b7e4c7;  color:#202020;}
-  .w6 { background-color: #b7e4c7;  color:#202020;}
-  .w7 { background-color: #95d5b2; color:#202020;}
-  .w8 { background-color: #74c69d; color:#202020;}
-  .w9 { background-color: #74c69d;color:#202020;}
-  .w10 { background-color: #52b788;color:#202020;}
-  .w11 { background-color: #52b788;color:white;}
-  .w12 { background-color: #40916c;color:white;}
-  .w13 { background-color: #40916c;color:white;}
-  .w14 { background-color: #2d6a4f;color:white;}
-  .w15 { background-color: #2d6a4f;color:white;}
-  .w16 { background-color: #2d6a4f;color:white;}
-  .w17 { background-color: #1b4332;color:white;}
-  .w18 { background-color: #1b4332;color:white;}
-  .w19 { background-color: #1b4332;color:white;}
-  .w20 { background-color: #1b4332;color:white;}
-  
-  .l1 { background-color: #feeeef; color:#202020;}
-  .l2 { background-color: #fcb8af;  color:#202020;}
-  .l3 { background-color: #fcb8af;  color:#202020;}
-  .l4 { background-color: #f67e7d;  color:#202020;}
-  .l5 { background-color: #f67e7d;  color:#202020;}
-  .l6 { background-color: #e5383b;color:#202020;}
-  .l7 { background-color: #e5383b;color:#202020;}
-  .l8 { background-color: #e5383b;color:#202020;}
-  .l9 { background-color: #ba181b;color:#202020;}
-  .l10 { background-color: #ba181b;color:#202020;}
-  .l11 { background-color: #ba181b;color:white;}
-  .l12 { background-color: #a4161a;color:white;}
-  .l13 { background-color: #a4161a;color:white;}
-  .l14 { background-color: #a4161a;color:white;}
-  .l15 { background-color: #660708;color:white;}
-  .l16 { background-color: #660708;color:white;}
-  .l17 { background-color: #660708;color:white;}
-  .l18 { background-color: #660708;color:white;}
-  
-  
-  /* MEDALS */
-  .gold {
-      background-color: gold; color:#202020;
-  }
-  
-  .silver {
-      background-color: silver; color:#202020;
-  }
-  
-  .bronze {
-      background-color: #b08d57; color:#202020;}
-  
-  .forth {
-      background-color: lavender; color:#202020;
-  }
-  
-  .playoffs {
-      background-color: gray; color:#202020;
-  }
-  
-  .color-gold {
-      color: gold; 
-  }
-  .color-silver {
-    color: silver;
-}
-.color-bronze {
-    color: #b08d57;
-}
-.color-forth {
-    color: lavender;
-}
+.td-awards  {text-align: left;}
 
 
 /* FIXED TABLE HEADER  */
@@ -318,37 +116,6 @@ height:30px;}
 
 .shelf-awards { text-align: left;height:30px}
 
-.color-rsc {
- color: orange;
-}
-
-.fa-crown {
-    color: orange;
-
-}
-
-.fa-poop {
-    color:#987654;
-}
-/* .color-poop {
-    color:#987654;
-} */
-
-.color-mip {
-    color: #1acdda;
-    background-color:#1acdda ;
-   }
-
-   .color-roy {
-    color: rgb(137, 68, 214);
-   }
-
-   .fa-award {
-       color:gold;
-   }
-   .color-poop {
-    color:#987654;
-}
 
 
    .new-manager {
@@ -378,7 +145,11 @@ height:30px;}
        display: flex;
    }
 
-   .trophy-case-font {font-size: 10px;}
+   .trophy-case-font {
+    font-size: 10px;
+    padding-left:5px;
+    }
+    
    .trophy-case-icon {font-size: 20px;}
    .trophy-case-flex {
        justify-content: space-between;
@@ -410,6 +181,7 @@ height:30px;}
 width:100px;
 }
 
+
 .footer-text {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 1px;
@@ -421,34 +193,61 @@ width:100px;
     width:50px;
     }
 
-.main-table {
-    /* padding-right: 3px;  */
+/* .main-table {
+    padding:80px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+} */
+
+.testy {
+    padding:80px; 
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.lefty {
+    /* display: flex; */
+   padding:10px;
+    
+}
+.header-icon {
+    width:150px;
+}
+
+
+
+.navbar {
+    color:white;
+    background: #057af0;
 }
 
 .navbar-brand {
     font-family: 'Bebas Neue', cursive;
-    color: white;
+    color:white;
     
 }
 
 
 a { 
-    color: white; 
+    color:white;
 
 }
 
-a:visited{ 
-    color: white; 
-    
-}
+/* a:visited{ 
+    color: #31393c; 
+} */
 
 a:hover { 
-    color: gold; 
+    /* color: gold;  */
     
 }
 
-.nav-icons
-{height: 40px;}
+.nav-icons {height: 40px;}
+.icon{height: 14px;}
 
 
 .color-white {
@@ -467,6 +266,7 @@ a:hover {
 
  .legend-text  
 {
+    cursor: pointer;
 font-size: 13px;
 }
 
@@ -479,9 +279,294 @@ font-size: 13px;
     padding-right:100px;
 }
 
+.legend-table {
+    padding: 0px 0px 10px 0px;
+    /* display: flex; */
+    /* width: 40vw; */
+    border-top: white 1px solid;
+}
+
 .accolades {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:red;
+    /* color:red; */
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tester {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    /*  */
+}
+
+
+/* Shelf (Works best in Webkit) */
+.shelf {
+	position: relative;
+	width: 100%;
+	border-bottom: 13px solid #24252a;
+	text-align: center;
+	padding: 0 27px;
+  margin: 20px auto;
+  background: transparent;
+}
+
+.shelf:after {
+	position: absolute;
+	bottom: -13px;
+	left: 34px;
+	height: 10px;
+	background: transparent;
+	content: "";
+	-webkit-transform: perspective( 150 ) rotateX( -25deg );
+	   -moz-transform: perspective( 150 ) rotateX( -25deg );
+	    -ms-transform: perspective( 150 ) rotateX( -25deg );
+	        transform: perspective( 150 ) rotateX( -25deg );
+	right: 34px;
+	box-shadow: 0 0 17px 5px rgba(0, 0, 0, 0.7);
+	z-index: -1;
+}
+
+	.shelf > div {
+		border-bottom: 23px solid #303138;
+		position: relative;
+		z-index: 1;
+	}
+	
+	.shelf > div:before {
+	  content: '';
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 0 0 23px 27px;
+	  border-color: transparent transparent #303138 transparent;
+	  position: absolute;
+	  bottom: -23px;
+	  left: -27px;
+	  z-index: 2;
+	  -webkit-transform:rotate(360deg);
+	  -moz-transform:rotate(360deg);
+	  transform:rotate(360deg);
+	}
+	
+	.shelf > div:after {
+	  content: '';
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 23px 0 0 27px;
+	  border-color: transparent transparent transparent #303138;
+	  position: absolute;
+	  bottom: -23px;
+	  right: -27px;
+	  z-index: 2;
+	}
+	
+		.shelf > div > * {
+			position: relative;
+			z-index: 2;
+			top: 18px;
+		}
+
+
+.tc_w {
+    /* color: #40916c; */
+}
+        .tc_l {
+        }
+
+        .lefty {
+            /* width:100px; */
+            padding-right:30px;
+        }
+
+        .righty {
+            padding-left:30px;
+        }
+
+        .col-stats {
+            padding: 20px;
+        }
+        .col-trophy {
+            /* padding: 20px; */
+        }
+
+
+        .th-total-manager {
+            text-align: left;
+          
+        }
+
+        .td-total-manager {
+            text-align: left;
+        }
+
+        .td-total-awards {
+
+            text-align: left;
+        }
+
+        /* .th-manager{  border-bottom: white 2px solid;} */
+        .th-total-hof {background: white !important;}
+        .th-total-award {background: white !important;}
+        .td-player-name {text-align: left;}
+        .td-player-drafted-by {text-align: left;}
+
+        .ic-pad {
+            padding: 3px;
+        }
+        .ic-pad-sm {
+            padding: 2px;
+        }
+
+        .td-total-jo {
+            text-align: center;
+        }
+
+        #sidebarMenu {
+            /* border-right: 1px solid #057af0; */
+            /* background: #1c1e2b;
+            background: #1c1e2b; */
+            /* background-color: #231f20; */
+            background: #1c1e2b;
+            /* background: white; */
+        }
+
+
+
+        .navbar {
+            background-color: #057af0;
+            -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+        .nav-link {
+            /* font-family: 'Bebas Neue', cursive;
+            letter-spacing: 2px; */
+            font-family: 'Inter', sans-serif;
+            font-weight: 200;
+        }
+
+
+        #players_table {
+            width:60%;
+        }
+
+        .legend-text{
+            text-align:left ;
+        }
+        .legend-team-text{
+            text-align:left ;
+        }
+        .legend-team-icon{
+            text-align:left ;
+        }
+
+        .reg-sea {
+            /* padding-left:10px; */
+            font-style: italic;
+            font-size: 10px;
+            color:silver;
+        }
+
+
+        .card-wrapper {
+            height: 80px;
+            width:300px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 17px 5px rgba(0, 0, 0, 0.7);
+            display: flex;
+    justify-content: space-between;
+
+        }
+        .card-logo {
+            position: absolute;
+            padding: 10px;
+            top: 123px;
+            left: 123px;
+        }
+        .card-right {
+            padding:15px;
+
+        }
+
+        .card-team-name {
+            padding-left: 10px;
+            padding-top:50px;
+color:black;
+        }
+
+        .icon-team {
+            position: absolute;
+            padding: 10px;
+            top: -10;
+            left: 1px;
+        }
+
+        .ic-lg {
+            padding-top:4px;
+            font-size: 14px;
+        }
+
+        .times {
+            font-size: 12px;
+            font-style: italic;
+        }
+
+
+        .flex-col {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+
+
+        /* new shelf */
+        
+
+
+#shelf {
+width: 400px;
+height: 71px;
+margin: 50px auto;
+position: relative;
+}
+.top {
+width: 336px;
+height: 100px;
+/* background: 7px 0  url(http://us.123rf.com/400wm/400/400/mettus/mettus1002/mettus100200138/6476266-motif-de-la-planche-de-bois-obsolete.jpg) */
+background-size: 88%;
+position: absolute;
+top: 0;
+left: 32px;
+transform: perspective(300px) rotateX(75deg);
+box-shadow: inset 0 40px 130px -20px #16120d;
+}
+.front {
+width: 400px;
+height: 6px;
+position: absolute;
+bottom: 0 ;
+box-shadow: inset 0 1px 1px 0 gold, inset 0 -2px 20px -2px #16120D;
+}
+.shadow {
+width: 395px;
+height: 6px;
+position: absolute;
+bottom: 0;
+left: 5px;
+box-shadow: 0 10px 20px -2px #1c1e2b;
+}
+
+.th-total-small {
+    background-color: black;
 }

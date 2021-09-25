@@ -1,0 +1,279 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    /* font: normal 14px/21px Arial, serif; */
+    /* padding: 5%;
+    margin-left:.5%;
+    margin-right:.5%; */
+    background-color: #31393c;
+    color: #eee;
+
+}
+
+#wrapper {
+    padding: 5%;
+    margin-left: .5%;
+    margin-right: .5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    font-size: 1em;
+    border-collapse: collapse;
+    margin: 0 auto;
+    /* background: #31393c; */
+    box-shadow: 20px 20px 60px #2a3033,
+        -20px -20px 60px #384245;
+    color: #eee;
+}
+
+table,
+td {
+    font-size: 14px;
+    border: 1px solid #475357;
+    text-align: center;
+    color: #eee;
+}
+
+th {
+    color: #31393c;
+    border: 1px solid #475357;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    background: #eee !important;
+}
+
+
+
+/* top-left border-radius */
+table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+/* top-right border-radius */
+table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+/* bottom-left border-radius */
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+/* bottom-right border-radius */
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.award_icons {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+.winper {
+    width: 50px !important;
+}
+
+
+
+
+/* WIN LOSS COLOR SCALE  */
+.w1 {
+    background: #d8f3dc!important;
+    color: #202020;
+}
+
+.w2 {
+    background: #d8f3dc!important;
+    color: #202020;
+}
+
+.w3 {
+    background: #d8f3dc!important;
+    color: #202020;
+}
+
+.w4 {
+    background: #b7e4c7!important;
+    color: #202020;
+}
+
+.w5 {
+    background: #b7e4c7!important;
+    color: #202020;
+}
+
+.w6 {
+    background: #b7e4c7!important;
+    color: #202020;
+}
+
+.w7 {
+    background: #95d5b2!important;
+    color: #202020;
+}
+
+.w8 {
+    background: #74c69d !important;
+    color: #202020;
+}
+
+.w9 {
+    background: #74c69d !important;
+    color: #202020;
+}
+
+.w10 {
+    background: #52b788 !important;
+    color: #202020;
+}
+
+.w11 {
+    background: #52b788 !important;
+    color: white;
+}
+
+.w12 {
+    background: #40916c !important;
+    color: white;
+}
+
+.w13 {
+    background: #40916c !important;
+    color: white;
+}
+
+.w14 {
+    background: #2d6a4f !important;
+    color: white;
+}
+
+.w15 {
+    background: #2d6a4f !important;
+    color: white;
+}
+
+.w16 {
+    background: #2d6a4f !important;
+    color: white;
+}
+
+.w17 {
+    background: #1b4332 !important;
+    color: white;
+}
+
+.w18 {
+    background: #1b4332 !important;
+    color: white;
+}
+
+.w19 {
+    background: #1b4332 !important;
+    color: white;
+}
+
+.w20 {
+    background: #1b4332 !important;
+    color: white;
+}
+
+.l1 {
+    background: #feeeef !important;
+    color: #202020;
+}
+
+.l2 {
+    background: #fcb8af !important;
+    color: #202020;
+}
+
+.l3 {
+    background: #fcb8af !important;
+    color: #202020;
+}
+
+.l4 {
+    background: #f67e7d !important;
+    color: #202020;
+}
+
+.l5 {
+    background: #f67e7d !important;
+    color: #202020;
+}
+
+.l6 {
+    background: #e5383b!important;
+    color: #202020;
+}
+
+.l7 {
+    background: #e5383b!important;
+    color: #202020;
+}
+
+.l8 {
+    background: #e5383b!important;
+    color: #202020;
+}
+
+.l9 {
+    background: #ba181b!important;
+    color: #202020;
+}
+
+.l10 {
+    background: #ba181b!important;
+    color: #202020;
+}
+
+.l11 {
+    background: #ba181b!important;
+    color: white;
+}
+
+.l12 {
+    background: #a4161a!important;
+    color: white;
+}
+
+.l13 {
+    background: #a4161a!important;
+    color: white;
+}
+
+.l14 {
+    background: #a4161a!important;
+    color: white;
+}
+
+.l15 {
+    background: #660708!important;
+    color: white;
+}
+
+.l16 {
+    background: #660708!important;
+    color: white;
+}
+
+.l17 {
+    background: #660708!important;
+    color: white;
+}
+
+.l18 {
+    background: #660708!important;
+    color: white;
+}
