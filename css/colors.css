@@ -15,6 +15,7 @@
   ._2019 { background: #057af0; color: #fff;}
   ._2020 { background: #057af0; color: #fff;}
   ._2021 { background: #057af0; color: #fff;}
+  ._2022 { background: #057af0; color: #fff;}
   
 
   /* harsh */
@@ -202,11 +203,10 @@
 .robbie {background: #f1ec59; color:#162025;}
 .langston {background: #ffbdbd; color:#000;}
 .jesus {background: #FF8C64; color:#000;}
-.andy {background: #01cdfe; 
-  color:#fff;}
+.andy {background: #01cdfe; color:#fff;}
 .andy-i{background-color:red;}
 .jeremy {background: #7d088d; color:#c6cace;}
-.robert {background: #000; color:#fff;}
+.robert {background: rgb(183, 111, 111); color:#fff;}
 
 .yacine {background: #F2055C; color:#0e022c;}
 /* .was {background: #002B5C; color:#C4CED4;} */
