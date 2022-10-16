@@ -1,21 +1,25 @@
  
 
   /* YEARS */
-  ._2008 { background: #057af0; color: #fff;}
-  ._2009 { background: #057af0; color: #fff;}
-  ._2010 { background: #057af0; color: #fff;}
-  ._2011 { background: #057af0; color: #fff;}
-  ._2012 { background: #057af0; color: #fff;}
-  ._2013 { background: #057af0; color: #fff;}
-  ._2014 { background: #057af0; color: #fff;}
-  ._2015 { background: #057af0; color: #fff;}
-  ._2016 { background: #057af0; color: #fff;}
-  ._2017 { background: #057af0; color: #fff;}
-  ._2018 { background: #057af0; color: #fff;}
-  ._2019 { background: #057af0; color: #fff;}
-  ._2020 { background: #057af0; color: #fff;}
-  ._2021 { background: #057af0; color: #fff;}
-  ._2022 { background: #057af0; color: #fff;}
+  
+  ._2008-09 { background: #EDEEF0; color: #333333;}
+  ._2009-10 { background: #EDEEF0; color: #333333;}
+  ._2010-11 { background: #EDEEF0; color: #333333;}
+  ._2011-12 { background: #EDEEF0; color: #333333;}
+  ._2012-13 { background: #EDEEF0; color: #333333;}
+  ._2013-14 { background: #EDEEF0; color: #333333;}
+  ._2014-15 { background: #EDEEF0; color: #333333;}
+  ._2015-16 { background: #EDEEF0; color: #333333;}
+  ._2016-17 { background: #EDEEF0; color: #333333;}
+  ._2017-18 { background: #EDEEF0; color: #333333;}
+  ._2018-19 { background: #EDEEF0; color: #333333;}
+  ._2019-20 { background: #EDEEF0; color: #333333;}
+  ._2020-21 { background: #EDEEF0; color: #333333;}
+  ._2021-22 { background: #EDEEF0; color: #333333;}
+  ._2022-23 { background: #EDEEF0; color: #333333;}
+  
+ 
+  ._year { background: #EDEEF0; color: #333333;}
   
 
   /* harsh */
@@ -62,6 +66,7 @@
 .w15{ background: #43e19a; color:#000; }
 .w16{ background: #32de91; color:#000; }
 .w17{ background: #32de91; color:#000; }
+.w18{ background: #32de91; color:#000; }
 
 /* loss */
 .l0 { background: #d8a4a5; color:#000; }
@@ -86,6 +91,7 @@
 
 /* colors */
 
+.gold-2   {background:red; fill:blue;}
 .gold   {background: gold; color:#202020;}
 .silver {background: silver; color:#202020;}
 .bronze {background: #b08d57; color:#202020;}
@@ -97,25 +103,25 @@
 .color-bronze {color: #b08d57;}
 .color-forth {color: lavender;}
 .color-pl {color: #f1f2f2;}
-.color-steal {color:#d1b265;}
+.color-steal {color:gold;}
 .color-black {color: black;}
 .color-white {background:white;color:black;}
-.color-rsc {color: orange;}
-.fa-crown {color: orange;}
+.color-rsc {color: gold;}
+.fa-crown {color: gold;}
 .fa-poop {color:#987654;}
 .color-mip {color: #1acdda;}
 .color-roy {color: rgb(137, 68, 214);}
 .fa-award {color:gold;}
 .color-poop {color:#987654;}
 .color-draft {color:#ee6c4d;}
-.color-ten {color:#fdd85d; }
+.color-ten {color:gold; }
 .td-rs-gp { background: #f1f2f2; color: black; }
 .bg-last   {background: #987654; color:#202020;}
 .bg-roy   {background: rgb(137, 68, 214);; color:#202020;}
 .bg-mip   {background: #1acdda; color:#202020;}
 .ninja   {background: silver; color:#202020;}
 .fort   {background: #ee6c4d; color:#202020;}
-.crown   {background: orange; color:#202020;}
+.crown   {background: gold; color:#202020;}
 
 /* teams */
 .atl {background: #E03A3E; color:#C1D32F;}
@@ -212,3 +218,8 @@
 /* .was {background: #002B5C; color:#C4CED4;} */
 
 
+
+
+.fa-cat-spacene {
+  color:red;
+}
