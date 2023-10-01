@@ -1,51 +1,316 @@
+/* base */
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
 body {
-    font: normal 14px/21px Arial, serif;
-    /* background-color: #231f20; */
-    background: #EDEEF0;
-    /* 434752 */
-    color:#eee;
+    background: #F7F9FC;
+    color: #222;
+    font-weight: 300;
 }
 
 
-table {
-    width: 100%;
-    font-size: 1em;
-    border-collapse: collapse;
-    margin: 0 auto;
-    color:#eee;
+main {
+    /* margin: 20px; */
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
 }
-table, th, td {
-    font-size: 14px;
-    border: 1px solid #475357;
+
+
+nav     {
+    background-color: #2c2e43;
+    color: white; 
+}
+
+.header-icon { 
+    height: 3em;
+}
+
+
+a.navbar-brand { 
+    color: white; 
+}
+
+ul.nav {
+    background-color: #f04349;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #2c2e43;
+}
+
+
+footer {
+    border-top: 1em solid #f04349;
+    background-color: #2c2e43;
+    color: white; 
+}
+
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color:#eee;
 }
+
+.footer-icon {
+width:5em;
+}
+
+
+.footer-text {
+ /* font-family: 'Bebas Neue', cursive; */
+ letter-spacing: 1px;
+ /* font-size: 16px; */
+ font-weight: 500;
+}
+
+#big-table { 
+    border: .5px solid #434343 ;
+}
+/* Table */
+.main-table {
+    /* border: 1px solid black; */
+    /* margin-top:50px; */
+    /* width: 50vw; */
+    /* margin:50px;
+    padding: 20px; */
+    /* background-color: #fff; */
+    /* border-radius: 1rem; */
+    /* -webkit-box-shadow: 0px 10px 13px -7px grey, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px grey, 5px 5px 15px 5px rgba(0,0,0,0); */
+}
+
+
+th {
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+    z-index: 1;
+
+}
+
+thead {
+    /* -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15); */
+}
+
+
+
+
+.champ-box { 
+    background-color: gold;
+    font-weight: 600;
+}
+
+/* FIXED TABLE HEADER  */
+.tableFixHead {
+    overflow-y: auto;
+    height: 60vh;
+
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: -1;
+    /* z-index: 100; */
+    background-color: #fff;
+    /* border-bottom: gray 1px solid; */
+}
+
+
+
+
+/* TH CLASSES  */
+
+th:first-child,
+td:nth-child(2) {
+    position: sticky;
+    left: 0px;
+    background-color: #f7f7f7;
+    border-right: gray 1px solid;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0,0,0,5%);
+}
+
+.th-seasons-left {
+min-width: 38px;
+border-left: 1px solid gray;
+}
+
+
+.th-seasons-right {
+    min-width: 38px;
+    }
+
+
+.th-total-small {
+    background-color: black;
+}
+
+.th-season-year {
+    font-weight: bold;
+    font-size:.7em;
+}
+
+.th-win-perc 
+{min-width: 50px;}
+
+.th-season-number {
+    /* font-weight: bold; */
+    font-size:.7em;
+}
+.th-season-label {
+    color: gray;
+}
+
+.th-season-loss {
+    color: #E44F51;
+}
+
+.th-season-win {
+    color: green;
+}
+
+.th-trophy-case {
+text-align: left;
+}
+
+
+
+.th-odd {
+    background-color: #f1f1f1!important;
+ }
+
+
+.th-even {
+    background-color: #dcdcdc!important;
+ }
+
+/* TD CLASSES */
+
+.td-join-id {
+    font-size: .8em;
+}
+
+.td-join-year {
+    font-weight: bold;
+    font-size: .8em;
+}
+
+
+.td-manager {
+    z-index: 0;
+    background-color:#f1f1f1;
+    border-right: 1px solid gray; 
+    border-top: 1px solid gray; 
+} 
+.td-active {
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.td-season-w {
+    text-align: center;
+}
+
+.td-season-l {
+    border-right: gray 1px solid;
+    text-align: center;
+}
+
+.td-sea {
+    text-align: center;
+    border-right: rgb(176, 176, 176) solid 1px;
+border-left: rgb(176, 176, 176) solid 1px;
+}
+
+.td-gp {
+    text-align: center;
+}
+.td-seasons {
+    text-align: center;
+}
+
+.td-playoffs {
+    text-align: center;
+}
+
+.td-finals {
+    text-align: center;
+}
+
+.td-titles {
+    text-align: center;
+}
+
+.td-total-w {
+    text-align: center;
+    color:green;
+}
+
+.td-total-l {
+    text-align: center;
+    color:#E44F51;
+}
+
+.td-last {
+    text-align: center;
+}
+
+.td-win-perc {
+    text-align: center;
+}
+
+.td-hof {
+    text-align: center;
+}
+.td-rank {
+    text-align: center;
+}
+
+.asterick {
+    font-size: .7em;
+    color:black;
+}
+
+.border-champ {
+/* border: 1px solid #222; */
+font-weight: 500;
+background-color: gold;
+}
+
+.border-last {
+    /* border: 2px solid brown; */
+    font-weight: 500;
+    color: #fff;
+/* background-color: #C19A6B; */
+background-color: #C4A484;
+    }
+
+
+
+/* SORT */
 table.ex-2 {
     min-width: 100px;
 }
-th {
-    color: #31393c;
-    background: #fff;
 
-    cursor: pointer;
-    font-size: 11px;
-    font-weight: 700;
-    text-align: center;
-}
-
-th:hover,
-th.sorted {
-    /* background: white;
-    color: #31393c;  */
-    
-}
 
 th.no-sort,
 th.no-sort:hover {
-    /* background: red; */
     cursor: not-allowed;
 }
 
@@ -58,525 +323,171 @@ th.sorted.descending:after {
 }
 
 .disabled {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
-
-
-
-
-
-/* th-classes */
-.th-rank {}
-.th-logo {text-align: center;}
-.th-manager {text-align: left;}
-.th-team-name{text-align: left;}
-.th-trophys{background: white !important;}
-.th-awards{background: white !important;}
-
-/* td-classes */
-.td-manager {text-align: left; color:#333;}
-.td-join-order{font-size: 12px;}
-.td-team-name {text-align: left;
-font-size: 12px;}
-.td-team-year {font-size: 8px;}
-.td-season-year {font-size: 10px;}
-.td-rs-fin {text-align: center;}
-.td-awards  {text-align: left;}
-
-
-/* FIXED TABLE HEADER  */
-.tableFixHead {
-    overflow-y: auto;
-    height: 700px;
+.tophies-container {
+padding-top: 5px;
 }
 
-.tableFixHead thead th {
-    position: sticky;
-    top: -1;
-}
-
-.trophy-case {
-    width: 200px;
-    /* text-align: center; */
-}
-
-.shelf-gold {
-    text-align: left;
-}
-
-.shelf-silver { text-align: left;
-height:30px;}
-
-.shelf-bronze { text-align: left;height:30px}
-
-.shelf-forth { text-align: left;height:30px}
-
-.shelf-playoffs { text-align: left;height:30px}
-
-.shelf-awards { text-align: left;height:30px}
-
-
-
-   .new-manager {
-       padding-left: 10px;
-       padding-right: 40px;
-   }
-   h5 {
-    font-family: 'Bebas Neue', cursive;
-       font-size: 24px;
-       letter-spacing: 1px;
-       text-align: left;
-       font-weight: 700;
-   }
-   h6 {
-           /* font-family: 'Bebas Neue', cursive; */
-    font-size: 14px;
-    text-align: left;
-    font-weight: 700;
-}
-
-   .vert-flex {
-       display: flex;
-    flex-direction: column;
-   }
-
-   .horz-flex {
-       display: flex;
-   }
-
-   .trophy-case-font {
-    font-size: 10px;
-    padding-left:5px;
-    }
-    
-   .trophy-case-icon {font-size: 20px;}
-   .trophy-case-flex {
-       justify-content: space-between;
-
-   }
-
-
-   .main-logo {
- display: flex;
- justify-content: flex-end;
-/* max-width:20px; */
-}
-
-.main-img {
-    /* display: flex; */
-    /* justify-content: flex-end; */
-   max-width:100px;
-   }
-
-
-   .footer-flex {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-   }
-
-   .footer-icon {
-width:100px;
-}
-
-
-.footer-text {
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.header-icon {
-    width:50px;
-    }
-
-/* .main-table {
-    padding:80px; 
+.trophies-flex {
     display: flex;
-    align-items: center;
+    padding: .5px;
+    /* flex-direction: column; */
+}
+.trophy-flex {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-  
+    text-align: center;
+    padding:1.5px;
+}
+
+.td-showhide {
+    /* color: #fff; */
+    color: #000;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.td-trophy-case {
+border-right: gray solid 1px;
+border-left: gray solid 1px;
+font-weight: 400;
+/* background-color: #3a3a3a; */
+/* color: #fff; */
+}
+
+.trophy-slot {
+    font-size: 1em;
+    color: #fff;   
+    fill:gold;
+}
+
+.trophy-year-text {
+    font-size: .5em;
+    /* color: #fff;  */
+    color: #000; 
+}
+
+.td-logo {
+    text-align: center;
+    min-width: 50px;
+    /* margin: 10px; */
+    /* max-width: 30px;
+    max-height: 30px; */
+    /* min-width: 30px;
+    min-height:30px; */
+    /* padding:4px; */
+}
+
+
+.flex-vert {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+/* .gold {
+    color:red;
 } */
 
-.testy {
-    padding:80px; 
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-}
-.lefty {
-    /* display: flex; */
-   padding:10px;
-    
-}
-.header-icon {
-    width:150px;
+
+
+.table-hover tbody tr:hover {
+    background-color: #fff;
+    color: #2c2e43;
+    font-weight: 600;
 }
 
-
-
-.navbar {
-    color:white;
-    background: #057af0;
-}
-
-.navbar-brand {
-    font-family: 'Bebas Neue', cursive;
-    color:white;  
-}
-
-
-a { 
-    color:white;
-
-}
-
-/* a:visited{ 
-    color: #31393c; 
+/* 
+.td-showhide:hover {
+    background-color: #8d8d8d;
+    color: white;  
 } */
 
-a:hover { 
-    /* color: gold;  */
-    
+
+.table-legend {
+    color:white !important;
+    /* fill: white; */
+    border-radius: 4px;
+    padding:10px;
+    color:white;
 }
 
-.nav-icons {height: 40px;}
-.icon{height: 14px;}
+.footer-link {
+    font-style: bold;
+    background-color:#2c2e43 ;
+        padding:10px;
+        color: white;
+        margin:10px;
+        border-radius: 4px;
+}
 
 
-.color-white {
+a.footer-link:hover {
+    color:white;
+}
+
+
+.footer-link-troph {
+    font-style: bold;
+    background-color:gold ;
+        padding:10px;
+        color: #2c2e43;
+        margin:10px;
+        border-radius: 4px;
+}
+
+
+a.footer-link-troph:hover {
+    color:#2c2e43;
+}
+
+.league-name {
+    font-weight: bold;
     color: white;
 }
 
-
-
-.table-text 
- {
-     padding-left: 20px;
-     font-weight: 100;
-     /* font-style: italic; */
-     font-size: 10px;
- }
-
- .legend-text  
-{
-    cursor: pointer;
-font-size: 13px;
+.sub-table {
+display: flex;
 }
 
-.legend-wrapper {
-    /* padding: 2px; */
-    display: flex;
-    justify-content:space-evenly;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right:100px;
+.hof-label {
+    font-weight: 700;
+    color: #2c2e43;
 }
 
-.legend-table {
-    padding: 0px 0px 10px 0px;
-    /* display: flex; */
-    /* width: 40vw; */
-    border-top: white 1px solid;
-}
-
-.accolades {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* color:red; */
-}
-
-.d-flex {
-    display: flex;
-    justify-content: space-around;
-}
-
-.tester {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: space-between; */
-    /*  */
+.hof-manager-label {
+    font-weight: 500;
 }
 
 
-/* Shelf (Works best in Webkit) */
-.shelf {
-	position: relative;
-	width: 100%;
-	border-bottom: 13px solid #24252a;
-	text-align: center;
-	padding: 0 27px;
-  margin: 20px auto;
-  background: transparent;
+.join {
+    background-color:#F7F9FC;
+    color:#f04349;
+    /* background-color: #f04349; */
 }
 
-.shelf:after {
-	position: absolute;
-	bottom: -13px;
-	left: 34px;
-	height: 10px;
-	background: transparent;
-	content: "";
-	-webkit-transform: perspective( 150 ) rotateX( -25deg );
-	   -moz-transform: perspective( 150 ) rotateX( -25deg );
-	    -ms-transform: perspective( 150 ) rotateX( -25deg );
-	        transform: perspective( 150 ) rotateX( -25deg );
-	right: 34px;
-	box-shadow: 0 0 17px 5px rgba(0, 0, 0, 0.7);
-	z-index: -1;
-}
-
-	.shelf > div {
-		border-bottom: 23px solid #303138;
-		position: relative;
-		z-index: 1;
-	}
-	
-	.shelf > div:before {
-	  content: '';
-	  width: 0px;
-	  height: 0px;
-	  border-style: solid;
-	  border-width: 0 0 23px 27px;
-	  border-color: transparent transparent #303138 transparent;
-	  position: absolute;
-	  bottom: -23px;
-	  left: -27px;
-	  z-index: 2;
-	  -webkit-transform:rotate(360deg);
-	  -moz-transform:rotate(360deg);
-	  transform:rotate(360deg);
-	}
-	
-	.shelf > div:after {
-	  content: '';
-	  width: 0px;
-	  height: 0px;
-	  border-style: solid;
-	  border-width: 23px 0 0 27px;
-	  border-color: transparent transparent transparent #303138;
-	  position: absolute;
-	  bottom: -23px;
-	  right: -27px;
-	  z-index: 2;
-	}
-	
-		.shelf > div > * {
-			position: relative;
-			z-index: 2;
-			top: 18px;
-		}
-
-
-.tc_w {
-    /* color: #40916c; */
-}
-        .tc_l {
-        }
-
-        .lefty {
-            /* width:100px; */
-            padding-right:30px;
-        }
-
-        .righty {
-            padding-left:30px;
-        }
-
-        .col-stats {
-            padding: 20px;
-        }
-        .col-trophy {
-            /* padding: 20px; */
-        }
-
-
-        .th-total-manager {
-            text-align: left;
-          
-        }
-
-        .td-total-manager {
-            text-align: left;
-        }
-
-        .td-total-awards {
-
-            text-align: left;
-        }
-
-        /* .th-manager{  border-bottom: white 2px solid;} */
-        .th-total-hof {background: white !important;}
-        .th-total-award {background: white !important;}
-        .td-player-name {text-align: left;}
-        .td-player-drafted-by {text-align: left;}
-
-        .ic-pad {
-            padding: 3px;
-        }
-        .ic-pad-sm {
-            padding: 2px;
-        }
-
-        .td-total-jo {
-            text-align: center;
-        }
-
-        #sidebarMenu {
-            /* border-right: 1px solid #057af0; */
-            /* background: #1c1e2b;
-            background: #1c1e2b; */
-            /* background-color: #231f20; */
-            background: #1c1e2b;
-            /* background: white; */
-        }
-
-
-
-        .navbar {
-            background-color: #057af0;
-            -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-        box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-        }
-        .nav-link {
-            /* font-family: 'Bebas Neue', cursive;
-            letter-spacing: 2px; */
-            font-family: 'Inter', sans-serif;
-            font-weight: 200;
-        }
-
-
-        #players_table {
-            width:60%;
-        }
-
-        .legend-text{
-            text-align:left ;
-        }
-        .legend-team-text{
-            text-align:left ;
-        }
-        .legend-team-icon{
-            text-align:left ;
-        }
-
-        .reg-sea {
-            /* padding-left:10px; */
-            font-style: italic;
-            font-size: 10px;
-            color:silver;
-        }
-
-
-        .card-wrapper {
-            height: 80px;
-            width:300px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 17px 5px rgba(0, 0, 0, 0.7);
-            display: flex;
-    justify-content: space-between;
-
-        }
-        .card-logo {
-            position: absolute;
-            padding: 10px;
-            top: 123px;
-            left: 123px;
-        }
-        .card-right {
-            padding:15px;
-
-        }
-
-        .card-team-name {
-            padding-left: 10px;
-            padding-top:50px;
-color:black;
-        }
-
-        .icon-team {
-            position: absolute;
-            padding: 10px;
-            top: -10;
-            left: 1px;
-        }
-
-        .ic-lg {
-            padding-top:4px;
-            font-size: 14px;
-        }
-
-        .times {
-            font-size: 12px;
-            font-style: italic;
-        }
-
-
-        .flex-col {
-            display: flex;
-            flex-direction: column;
-        }
-
-
-
-
-
-        /* new shelf */
-        
-
-
-#shelf {
-width: 400px;
-height: 71px;
-margin: 50px auto;
-position: relative;
-}
-.top {
-width: 336px;
-height: 100px;
-/* background: 7px 0  url(http://us.123rf.com/400wm/400/400/mettus/mettus1002/mettus100200138/6476266-motif-de-la-planche-de-bois-obsolete.jpg) */
-background-size: 88%;
-position: absolute;
-top: 0;
-left: 32px;
-transform: perspective(300px) rotateX(75deg);
-box-shadow: inset 0 40px 130px -20px #16120d;
-}
-.front {
-width: 400px;
-height: 6px;
-position: absolute;
-bottom: 0 ;
-box-shadow: inset 0 1px 1px 0 gold, inset 0 -2px 20px -2px #16120D;
-}
-.shadow {
-width: 395px;
-height: 6px;
-position: absolute;
-bottom: 0;
-left: 5px;
-box-shadow: 0 10px 20px -2px #1c1e2b;
-}
-
-.th-total-small {
-    background-color: black;
+.join-text {
+    color:#2c2e43;
 }
 
 
-.logo-icons {
-    height: 1rem;
-    width: 1rem;
-    /* background-color:red; */
+.join:hover {
+    background-color:#2c2e43;
+    color:#F7F9FC !important;
 }
 
-.text-team-name {
-    color:333;
+
+.join-text:hover {
+    background-color:#2c2e43;
+    color:#F7F9FC !important;
+}
+
+
+.btn-secondary {
+    background-color:#2c2e43;
+    color:#F7F9FC !important;
 }
