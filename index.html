@@ -105,6 +105,14 @@
         </li>
         <li class="nav-item">
             <!-- Button trigger modal -->
+            <a class="nav-link" data-toggle="modal" data-target="#rulesModal">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><defs><style>.fa-secondary{opacity:0.4;}</style></defs><path class="fa-primary" d="M32 160h96V96c0-35.3-28.7-64-64-64S0 60.7 0 96v32c0 17.7 14.3 32 32 32zM288 384v16c0 44.2-35.8 80-80 80H480c53 0 96-43 96-96c0-17.7-14.3-32-32-32H424h-1.4c-4.2 0-8.3 1.7-11.3 4.7l-21.7 21.7c-3.1 3.1-8.2 3.1-11.3 0l-21.7-21.7c-3-3-7.1-4.7-11.3-4.7H344 320c-17.7 0-32 14.3-32 32z"/><path class="fa-secondary" d="M128 96v88 1.4c0 4.2 1.7 8.3 4.7 11.3l21.7 21.7c3.1 3.1 3.1 8.2 0 11.3l-21.7 21.7c-3 3-4.7 7.1-4.7 11.3V264 400c0 44.2 35.8 80 80 80s80-35.8 80-80V384c0-17.7 14.3-32 32-32h24 1.4c4.2 0 8.3 1.7 11.3 4.7l21.7 21.7c3.1 3.1 8.2 3.1 11.3 0l21.7-21.7c3-3 7.1-4.7 11.3-4.7H424h56V296v-1.4c0-4.2-1.7-8.3-4.7-11.3l-21.7-21.7c-3.1-3.1-3.1-8.2 0-11.3l21.7-21.7c3-3 4.7-7.1 4.7-11.3V216 200v-1.4c0-4.2-1.7-8.3-4.7-11.3l-21.7-21.7c-3.1-3.1-3.1-8.2 0-11.3l21.7-21.7c3-3 4.7-7.1 4.7-11.3V120 96c0-35.3-28.7-64-64-64H64c35.3 0 64 28.7 64 64z"/></svg>
+                Scoring & Rules
+
+            </a>
+        </li>
+        <li class="nav-item">
+            <!-- Button trigger modal -->
             <a class="nav-link" data-toggle="collapse" href="#showAll" aria-expanded="false" aria-controls="showAll">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="white"
                     viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -124,6 +132,7 @@
 
             </a>
 
+         
             <li class="nav-item join">
                 <!-- Button trigger modal -->
                 <a class="nav-link join-text" data-toggle="collapse" href="#showAll" aria-expanded="false" aria-controls="showAll">
@@ -14573,6 +14582,104 @@
 
                             </tbody>
                         </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Scoring & Rules Modal -->
+        <div class="modal fade" id="rulesModal" tabindex="-1" aria-labelledby="rulesModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h6 class="modal-title" id="exampleModalLabel">Scoring & Rules </h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+               
+                        <table class="table table-sm">
+                            <tbody>
+                                <tr>
+                                    <td class="rules-text">Field Goals Made (FGM):</td>
+                                    <td class="rules-desc plus">+1</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Field Goals Attempted (FGA):</td>
+                                    <td class="rules-desc minus">-0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Free Throws Made (FTM):
+                                        </td>
+                                    <td class="rules-desc plus">+1</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Free Throws Attempted (FTA):</td>
+                                    <td class="rules-desc minus">-0.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Offensive Rebounds (OREB):</td>
+                                    <td class="rules-desc plus">+1.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Defensive Rebounds (DREB):</td>
+                                    <td class="rules-desc plus">+1</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="rules-text">Assists (AST):</td>
+                                    <td class="rules-desc plus">+1.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Steals (STL): 
+                                        </td>
+                                    <td class="rules-desc plus">+1</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="rules-text">Blocks (BLK): </td>
+                                    <td class="rules-desc plus">+1.5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Turnovers (TO): </td>
+                                    <td class="rules-desc minus">-1</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="rules-text">Ejections (EJ): </td>
+                                    <td class="rules-desc minus">-3</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Technical Fouls (TF):</td>
+                                    <td class="rules-desc minus">-0.5</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="rules-text">Double Doubles (DD): </td>
+                                    <td class="rules-desc plus">+5</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Triple Doubles (TD):</td>
+                                    <td class="rules-desc plus">+8</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Quadruple Doubles (QD):</td>
+                                    <td class="rules-desc plus">+16</td>
+                                </tr>
+                                <tr>
+                                    <td class="rules-text">Points (PTS):</td>
+                                    <td class="rules-desc plus">+1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+    
+                        
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
