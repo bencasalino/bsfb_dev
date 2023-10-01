@@ -1,99 +1,51 @@
-[
-    {
-        "ben_c": {
-            "data": {
-                "name":"Ben C",
-                "join_order":1,
-                "total_seasons": 10
-            },
-            "s08": {
-                "year": 2008,
-                "w":14,
-                "l":3,
-                "p_wins":4,
-                "fin_order": 2,
-                "awards":["/images/icons/award.svg","/images/ballot.svg"]
-            },
-            "s09": {
-                "year":2009  ,
-                "w": 1 ,
-                "l": 1 ,
-                "p_wins":1  ,
-                "fin_order": 1  ,
-                "awards":[]
-            }
-        },
-        "rafa_s": {
-            "data": {
-                "name":"Rafa S",
-                "join_order":1,
-                "total_seasons": 10
-            },
-            "s08": {
-                "year": 2008,
-                "w":1,
-                "l":3,
-                "p_wins":4,
-                "fin_order": 4,
-                "awards":["/images/icons/award.svg","/images/ballot.svg"]
-            },
-            "s09": {
-                "year":2009  ,
-                "w": 1 ,
-                "l": 1 ,
-                "p_wins":1  ,
-                "fin_order": 1  ,
-                "awards":[]
-            }
-        },
-        "wins": {
-            "awards":["/images/icons/award.svg","/images/ballot.svg"],
-            "w1":"w1",
-            "w2":"w2",
-            "w3":"w3",
-            "w4":"w4",
-            "w5":"w5",
-            "w6":"w6",
-            "w7":"w7",
-            "w8":"w8",
-            "w9":"w9",
-            "w10":"w10",
-            "w11":"w11",
-            "w12":"w12",
-            "w13":"w13",
-            "w14":"w14"
-            },
-        "loss": {
-            "l1":"l1",
-            "l2":"l2",
-            "l3":"l3",
-            "l4":"l4",
-            "l5":"l5",
-            "l6":"l6",
-            "l7":"l7",
-            "l8":"l8",
-            "l9":"l9",
-            "10":"l10",
-            "11":"l11",
-            "l12":"l12",
-            "l13":"l13",
-            "l14":"l14",
-            "l15":"l15",
-            "l16":"l16",
-            "l17":"l17",
-            "l18":"l18",
-            "l19":"l19",
-            "l20":"l20"
 
-        },
-        "place": {
-            "first":"first"
-        },
-        "season_year": {
-            "sy09":"sy09"
-        },
-        "awards": {
-            "mip":"mip"
+
+ {
+    "ben": {
+        "metadata": [
+            {
+            "id": 1,
+            "name": "Ben",
+            "color1": "#000000",
+            "color2": "#000000",
+            "color3": "#000000",
+            "year_joined": 2002,
+            "seasons": 13,
+            "logo": "/image.png",
+            "logo_name": "bear"
         }
-    }
-]
+        ],
+        "trophies": [
+            {
+            "id": 1,
+            "year_joined": 2002,
+            "seasons": 13,
+            "logo": "/image.png",
+            "logo_name": "bear",
+            "hof": true
+        }
+        ],
+        "season1": [
+            {
+            "cal_year": 2002,
+            "year": 2,
+            "gp": 18,
+            "rs_wins": 1,
+            "rs_loss": 1,
+            "awards": 1,
+            "rs_finish": 3,
+            "playoffs": false,
+            "p_wins": 1,
+            "p_loss": 1,
+            "p_awards": 1,
+            "finish": 3,
+            "final_place": 3
+            }
+        ],
+        "season2": [
+            {
+
+                }
+        ],
+    },
+}

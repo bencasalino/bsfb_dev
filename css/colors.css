@@ -66,7 +66,7 @@
 .w15{ background: #43e19a; color:#000; }
 .w16{ background: #32de91; color:#000; }
 .w17{ background: #32de91; color:#000; }
-.w18{ background: #32de91; color:#000; }
+.w18{ background: #32de91; color:#000;  }
 
 /* loss */
 .l0 { background: #d8a4a5; color:#000; }
@@ -80,7 +80,7 @@
 .l8 { background: #de6d6f; color:#000; }
 .l9 { background: #de6d6f; color:#000; }
 .l10{ background: #e4797b; color:#000; }
-.l11{ background: #e4797b; color:#000; }
+.l11{ background-color: #e4797b; color:#000; }
 .l12{ background: #e44f51; color:#000; }
 .l13{ background: #e44f51; color:#000; }
 .l14{ background: #e64447; color:#000; }
@@ -157,7 +157,7 @@
 
 
 /* team colors */
-.ben {background: #3a6fe0; color:#C39E6D;}
+.ben {background-color: #3a6fe0; color:#C39E6D;}
 .preet {background: #007A33; color:#ece5d9;}
 .burges {background: #000; color:#fff;}
 .jon {background: #90CBFB; color:#1D1160;}
@@ -188,6 +188,11 @@
 .jasonb {background: #A3A1A8; color:#790014;}
 .sean {background: #753BBD; color:#fff;}
 .rafa {background: #00471B; color:#F9A01B;}
+.rafa-fill { background-color:rgb(79, 38, 92);
+  fill: #F9A01B;
+padding:4px;
+
+}
 .adrian {background: #002B5C; color:#498f94;}
 .connor {background: #3E2680; color:#6CAEDF;}
 .tophas {background: rgb(241, 241, 241); color:#d1b265;}
@@ -210,7 +215,7 @@
 .langston {background: #ffbdbd; color:#000;}
 .jesus {background: #FF8C64; color:#000;}
 .andy {background: #01cdfe; color:#fff;}
-.andy-i{background-color:red;}
+/* .andy-i{background-color:red;} */
 .jeremy {background: #7d088d; color:#c6cace;}
 .robert {background: rgb(183, 111, 111); color:#fff;}
 .chad {background: rgb(79, 38, 92); color:rgb(131, 122, 122);}
@@ -222,5 +227,5 @@
 
 
 .fa-cat-spacene {
-  color:red;
+  /* color:red; */
 }
