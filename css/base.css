@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #F7F9FC;
+    background-color: #F7F9FC;
     color: #222;
     font-weight: 300;
 }
@@ -12,11 +12,18 @@ body {
 
 main {
     /* margin: 20px; */
+margin: 1;
+}
+
+@media (min-width: 576px) {     
+main {
     margin-top: 4em;
     margin-bottom: 4em;
     margin-left: 4em;
     margin-right: 4em;
 }
+
+ }
 
 
 nav     {

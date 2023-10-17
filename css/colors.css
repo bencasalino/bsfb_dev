@@ -829,13 +829,31 @@ background-color: #795C32;
    width: 2em;
  }
 
- .fill-alekm {
+ .fill-alexm {
    background-color: #3ae090;
    fill: #1f1e1e;
    border: 2px solid #1f1e1e;
    width: 2em;
    padding: 4px;
  }
+
+ .fill-robr {
+  background-color: #058ab3;
+  fill: #fd7171;
+  border: 2px solid #1f1e1e;
+  width: 2em;
+  padding: 4px;
+}
+
+.fill-joseq {
+  background-color: #bbf493;
+  fill: #080707;
+  border: 2px solid #080707;
+  width: 2em;
+  padding: 4px;
+}
+
+
 
  .fill-adamb {
    background-color: #222;
@@ -1084,7 +1102,7 @@ background-color: #795C32;
 
 
  .fill-leet {
-   background-color: #ffa449;
+   background-color: #fcff49;
    fill: #1f099d;
    border: 2px solid #1f099d;
    padding: 4px;
