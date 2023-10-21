@@ -230,6 +230,13 @@ text-align: left;
     font-weight: bold;
 }
 
+
+.td-new {
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
 .td-season-w {
     text-align: center;
 }
